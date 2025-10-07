@@ -6,8 +6,9 @@ COPY requirements.txt /tmp/requirements.txt
 
 USER root
 
+
 RUN apt-get update && apt-get install -y \
-libgl1-mesa-glx libglib2.0-0 ffmpeg
+    libgl1-mesa-glx libglib2.0-0 libsm6 libxext6 ffmpeg
 
 
 # pip을 사용하여 종속성 설치 (컨테이너 내 사용자: 'airflow')

@@ -2,8 +2,10 @@ from __future__ import annotations
 import pendulum
 from airflow.models.dag import DAG
 from airflow.operators.python import PythonOperator
-from videoDownloader import download_video_480p
 from sceneDetecter import find_scenes
+from downloader import download_video_with_audio
+from extract_audio import extract_audio_from_video
+from transcriber import generate_subtitle
 
 # 프로젝트 루트 상수
 PROJECT_ROOT = "/opt/airflow"
@@ -29,19 +31,26 @@ with DAG(
     catchup=False,
     tags=["video", "pipeline"],
 ) as dag:
-    
+
     # 첫 번째 Task: downloader_video.py 실행
-    # modules 폴더에 있는 파이썬 스크립트를 실행합니다.
     download_task = PythonOperator(
         task_id="download_task",
-        python_callable=download_video_480p,
+        python_callable=download_video_with_audio,
         op_kwargs={
             "PROJECT_ROOT": PROJECT_ROOT,
-            "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", # URL 하드코딩            
+            "video_url": "https://www.youtube.com/watch?v=nMyxF1_bF3s&t=235s", # URL 하드코딩            
         },
     )
-
-    # 두 번째 Task: detecter_scene.py 실행
+    # 두 번째 Task: extract_audio.py 실행
+    extract_task = PythonOperator(
+        task_id="extract_task",
+        python_callable=extract_audio_from_video,
+        op_kwargs={
+            "PROJECT_ROOT": PROJECT_ROOT,
+            "video_path": "{{ task_instance.xcom_pull(task_ids='download_task') }}",
+        },
+    )
+    # 세 번째 Task: detecter_scene.py 실행
     detect_task = PythonOperator(
         task_id="detect_task",
         python_callable=find_scenes,
@@ -51,7 +60,6 @@ with DAG(
             "threshold": 50,
         },
     )
-
     # Task 실행 순서 설정
     # download_task가 성공적으로 끝나면 detect_task를 실행합니다.
-    download_task >> detect_task
+    download_task >> extract_task >> detect_task

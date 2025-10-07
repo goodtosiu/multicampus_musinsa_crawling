@@ -1,0 +1,150 @@
+{"timestamp":"2025-10-06T07:41:14.511280Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-06T07:41:14.511573Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/video_chapter_pipeline.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-06T07:41:14.683900Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/video_chapter_pipeline.py","lineno":4,"logger":"py.warnings"}
+{"timestamp":"2025-10-06T07:41:14.721696Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.721863Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.722807Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.722872Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.722915Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.722958Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.722998Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723040Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723080Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723121Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723160Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723204Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723243Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723283Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723321Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723360Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723397Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723436Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723474Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723514Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723554Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723593Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723631Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723697Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723736Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723775Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.723813Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724063Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724109Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724150Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724199Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724240Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724280Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724507Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724551Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724595Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724641Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724688Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724748Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724789Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724830Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724871Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724910Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.724951Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725059Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725101Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725140Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725180Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725230Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725270Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.725646Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726270Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726467Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726523Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726565Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726606Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726646Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726684Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726723Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726761Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726802Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726840Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726877Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726915Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726953Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.726991Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727029Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727067Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727110Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727149Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727186Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727234Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727289Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727327Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727367Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727407Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727460Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727527Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727576Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727618Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727658Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727720Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727759Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727845Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727887Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727927Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.727969Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728009Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728048Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728090Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728128Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728166Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728205Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728243Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728282Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728321Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728360Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728398Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728436Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728474Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728512Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728551Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728592Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728630Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728668Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728705Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728743Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728781Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728818Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728856Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728921Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.728959Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729000Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729045Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729084Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729122Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729160Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729198Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729236Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729274Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729311Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729349Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729386Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729426Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729463Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729500Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729537Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729573Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729610Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729648Z","level":"error","event":"[av1 @ 0xaaaafe5b0100] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729685Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729722Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729759Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Your platform doesn't suppport hardware accelerated AV1 decoding.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729796Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Failed to get pixel format.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729833Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729870Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729907Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.729972Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.730043Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.730083Z","level":"error","event":"[av1 @ 0xaaaafdc2f2b0] Missing Sequence Header.","logger":"task.stderr"}
+{"timestamp":"2025-10-06T07:41:14.730137Z","level":"info","event":"현재 사용 중인 비디오 객체 타입: <class 'scenedetect.backends.opencv.VideoStreamCv2'>","logger":"task.stdout"}
+{"timestamp":"2025-10-06T07:41:14.730197Z","level":"info","event":"---------- 비디오 파일 정보 확인 ----------","logger":"task.stdout"}
+{"timestamp":"2025-10-06T07:41:14.730240Z","level":"info","event":"해상도: (854, 480), 총 길이: 00:03:33.040, FPS: 25.00","logger":"task.stdout"}
+{"timestamp":"2025-10-06T07:41:14.730298Z","level":"info","event":"❌ 오류 발생: 첫 프레임 읽기 실패! 비디오 파일 손상 또는 코덱 문제를 확인하세요.","logger":"task.stdout"}
+{"timestamp":"2025-10-06T07:41:14.730346Z","level":"info","event":"⚠️ 비디오 파일 닫기 중 문제가 발생했습니다.","logger":"task.stdout"}
+{"timestamp":"2025-10-06T07:41:14.726067Z","level":"info","event":"Done. Returned value was: []","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-06T07:41:14.726181Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0199b877-8be1-7665-a4f7-2ec2d14635b5'), task_id='detect_task', dag_id='video_scene_detection_pipeline', run_id='manual__2025-10-06T07:41:06.387299+00:00', try_number=1, dag_version_id=UUID('0199b83b-81cd-7cb3-914a-8cb23e980667'), map_index=-1, hostname='6bff5d116c26', context_carrier={}, task=<Task(PythonOperator): detect_task>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 10, 6, 7, 41, 14, 438951, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1352}
