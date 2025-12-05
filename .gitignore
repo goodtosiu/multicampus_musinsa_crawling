@@ -1,0 +1,16 @@
+# 가상환경
+venv/
+env/
+
+# 데이터 (용량이 크므로 제외)
+data/
+*.png
+*.jpg
+*.csv
+*.pkl
+*.npy
+
+# 파이썬 자동 생성 파일
+__pycache__/
+*.ipynb_checkpoints/
+.DS_Store
