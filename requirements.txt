@@ -13,3 +13,4 @@ ipykernel
 opencv-python
 python-dotenv
 PyMySQL
+webdriver-manager
