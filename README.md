@@ -1,10 +1,13 @@
-# 1. 새 가상 환경 생성 및 활성화
+### 1. 새 가상 환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate   # Windows
 
-# 2. 패키지 설치
+### 2. 패키지 설치
 pip install -r requirements.txt
+
+### 3. ERD
+###https://dbdiagram.io/d/musinsa-693cfc52e877c63074ad5427
 
 # 👕 무신사 토탈아웃핏 추천 시스템 (Musinsa Total Outfit Recommendation)
 
